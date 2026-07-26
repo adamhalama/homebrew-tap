@@ -1,6 +1,6 @@
 cask "transcry" do
   version "0.1.0"
-  sha256 "984ff1810cf72c53af973079480fab21637271f54b6d058234f816d363b3bc5a"
+  sha256 "3a7e53e502231d7c1bb0d553b54785eb27ae619219a18814cf8a90cca52061e7"
 
   url "https://github.com/adamhalama/homebrew-tap/releases/download/transcry-v#{version}/Transcry-#{version}.dmg"
   name "Transcry"
