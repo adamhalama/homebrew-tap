@@ -37,7 +37,7 @@ Remove the app and its Application Support data:
 brew uninstall --cask --zap adamhalama/tap/transcry
 ```
 
-Transcry v0.1.0 is an ad-hoc-signed, unnotarized preview. macOS may require a
+Transcry v0.2.0 is an ad-hoc-signed, unnotarized preview. macOS may require a
 one-time approval from **System Settings → Privacy & Security** before the first
 app launch. The CLI does not require that approval.
 

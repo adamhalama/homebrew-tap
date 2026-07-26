@@ -1,8 +1,8 @@
 cask "transcry" do
-  version "0.1.0"
-  sha256 "214a37fe7eb5780662b9883db02febfb27b8bb11f657936d399303cf7c09395e"
+  version "0.2.0"
+  sha256 "3d052e4078fee810ca5400cc592d5604b173bca3748419aa3e75ff9c83cdbf83"
 
-  url "https://github.com/adamhalama/homebrew-tap/releases/download/transcry-v#{version}/Transcry-#{version}.dmg?v=214a37fe"
+  url "https://github.com/adamhalama/homebrew-tap/releases/download/transcry-v#{version}/Transcry-#{version}.dmg?v=3d052e40"
   name "Transcry"
   desc "Native app for local meeting transcription and speaker naming"
   homepage "https://github.com/adamhalama/homebrew-tap"
