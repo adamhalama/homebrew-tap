@@ -1,4 +1,4 @@
-class Transcry < Formula
+class TranscryCli < Formula
   desc "Local meeting transcription with automatic speaker grouping"
   homepage "https://github.com/adamhalama/homebrew-tap"
   url "https://github.com/adamhalama/homebrew-tap/releases/download/transcry-v0.2.0/transcry-0.2.0.tar.gz?v=c1716324"

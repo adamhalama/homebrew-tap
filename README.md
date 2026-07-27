@@ -4,31 +4,39 @@ Public Homebrew formulae and casks maintained by Adam Halama.
 
 ## Transcry
 
-Install the Apple Silicon CLI and its processing dependencies:
-
-```bash
-brew install adamhalama/tap/transcry
-```
-
-Install the macOS app and CLI together:
+Install the macOS app and the CLI it depends on:
 
 ```bash
 brew install --cask adamhalama/tap/transcry
+```
+
+Install the Apple Silicon CLI on its own, with its processing dependencies:
+
+```bash
+brew install adamhalama/tap/transcry-cli
+```
+
+Both provide the `transcry` command.
+
+Recent Homebrew versions ask you to trust a third-party tap before loading it:
+
+```bash
+brew trust adamhalama/tap
 ```
 
 Upgrade:
 
 ```bash
 brew update
-brew upgrade adamhalama/tap/transcry
 brew upgrade --cask adamhalama/tap/transcry
+brew upgrade adamhalama/tap/transcry-cli
 ```
 
 Uninstall while preserving jobs:
 
 ```bash
 brew uninstall --cask adamhalama/tap/transcry
-brew uninstall adamhalama/tap/transcry
+brew uninstall adamhalama/tap/transcry-cli
 ```
 
 Remove the app and its Application Support data:

@@ -7,7 +7,7 @@ cask "transcry" do
   desc "Native app for local meeting transcription and speaker naming"
   homepage "https://github.com/adamhalama/homebrew-tap"
 
-  depends_on formula: "adamhalama/tap/transcry"
+  depends_on formula: "adamhalama/tap/transcry-cli"
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
