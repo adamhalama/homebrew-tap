@@ -1,9 +1,9 @@
 class TranscryCli < Formula
   desc "Local meeting transcription with automatic speaker grouping"
   homepage "https://github.com/adamhalama/homebrew-tap"
-  url "https://github.com/adamhalama/homebrew-tap/releases/download/transcry-v0.3.0/transcry-0.3.0.tar.gz?v=3f3a6a49"
-  version "0.3.0"
-  sha256 "3f3a6a49e0bc4c556e2b9df0b45601bf0c05d44bd20d799f30f82459cae2c164"
+  url "https://github.com/adamhalama/homebrew-tap/releases/download/transcry-v0.4.0/transcry-0.4.0.tar.gz?v=f69c2eba"
+  version "0.4.0"
+  sha256 "f69c2ebad9d893ee857126385ef8d811fcc6c34135da28d8a8bdad67063a56ab"
   license "MIT"
 
   depends_on arch: :arm64
